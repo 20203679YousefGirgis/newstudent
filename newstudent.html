@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>New student</title>
+        <style type="text/css">
+        div {
+        text-align: left;
+            } 
+        </style>
+        <script>
+        window.alert("          Welcome To New Student Page ,Please Complete This Form           ");
+        </script>
+    </head>
+    <body>
+        <h1>New Student</h1>
+    <form>
+        <fieldset> 
+        <legend><p><strong>Personal Information</strong></p></legend>
+        <div>
+        <label for="Name">Full Name: </label>
+        <input type="text" name="name"required placeholder="Enter Your Name">
+        </div>
+        <br>
+        <div>
+        <label for="Birthdate">Birthdate: </label>
+        <input type="date" name="birthdate" required>
+        </div>
+        <br>
+        <div>
+        <label for="Gender">Gender:  </label>
+        <input type="radio" name="Gender" required>Male
+        <input type="radio" name="Gender" required>Female
+        </div>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+        <legend><p><strong>Contact Information</strong></p></legend>
+        <div>
+        <label>Email: </label>
+        <input type="email" name="Email" required placeholder="Enter Your Email">
+        </div>
+        <br>
+        <div>
+        <label>Phone: </label>
+        <input type="number" name="phone" required placeholder="Enter Your Phone">
+        </div>
+        <br>
+        <div>
+        <label>Address: </label>
+        <textarea name="Address"cols="100" rows="5" required placeholder="Enter Your Address" ></textarea>
+        </div>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+        <legend><p><strong>University Information</strong></p></legend>
+        <div>
+        <label for="Choose">Choose Your Faculty: </label>
+        <select name="Choose" id="Choose">
+        <optgroup label="Computer Science">
+        <option value="1" selected>Factulty 1</option>
+        <option value="2">Factulty 2</option>
+        <option value="3">Factulty 3</option>
+        <option value="4">Factulty 4</option>
+        </optgroup>
+        </select>
+        </div>
+        <br>
+        </fieldset>
+    </form>
+        <input  type="submit" name="Add" value="Add">
+    </body>
+    </html>
